@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack",
     "watch": "webpack -w",
-    "lint": "eslint src --ext .ts --ext .tsx"
+    "lint": "eslint src --ext .ts"
   },
   "devDependencies": {
     "eslint-plugin-prettier": "^3.1.4",

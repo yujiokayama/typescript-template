@@ -5,9 +5,12 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack",
-    "watch": "webpack -w"
+    "watch": "webpack -w",
+    "lint": "eslint src --ext .ts --ext .tsx"
   },
   "devDependencies": {
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5",
     "ts-loader": "^7.0.5",
     "typescript": "^3.9.5",
     "webpack": "^4.43.0",
